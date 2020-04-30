@@ -94,7 +94,21 @@ for (let item in appData) {
     console.log(item, "-", appData[item]);
 }
 
+let startCalculation = document.getElementById('start-value'),
+    budget = document.querySelectorAll('.budget-value, .daybudget-value, .level-value, .expenses-value, .optionalexpenses-value, .income-value, .monthsavings-value, .yearsavings-value'),
+    input = document.getElementsByClassName("expenses-item"),
+    approve = document.getElementsByClassName("expenses-item-btn"),
+    calculate = document.getElementsByClassName("optionalexpenses-btn"),
+    optionalexpenses = document.querySelectorAll(".optionalexpenses-item"),
+    additionalIncome = document.querySelector(".choose-income"),
+    checkBox = document.querySelector("#income"),
+    sum = document.querySelector("#sum"),
+    percent = document.querySelector("#percent"),
+    year = document.querySelector(".year-value"),
+    month = document.querySelector(".month-value"),
+    day = document.querySelector(".day-value");
 
+console.log(day);
 
 
 // let k = 0;
